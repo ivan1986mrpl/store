@@ -1,0 +1,346 @@
+.footer {
+    background-color: #EEE;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    // .footer__container
+    &__container {
+    }
+
+    // .footer__body
+    &__body {
+    }
+
+    // .footer__copy
+    &__copy {
+        color: rgba(18, 18, 18, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+        text-align: center;
+    }
+}
+.body-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    &:not(:last-child) {
+        margin-bottom: 80px;
+    }
+    // .body-footer__column
+    &__column {
+        //flex: 0 1 25%;
+    }
+
+    // .body-footer__image
+    &__image {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-bottom: 29px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+
+    // .body-footer__contacts
+    &__contacts {
+    }
+
+    // .body-footer__menu
+    &__menu {
+    }
+
+    // .body-footer__social
+    &__social {
+    }
+}
+.contacts-footer {
+
+    // .contacts-footer__item
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    // .contacts-footer__link
+    &__link {
+        display: inline-block;
+        line-height: 24px;
+        padding-left: 44px;
+        color: rgba(18, 18, 18, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        transition:all 0.3s ease 0s;
+        @media (any-hover: hover) {
+            &:hover {
+                text-decoration: underline;
+                color: #000;
+            }
+        }
+    }
+
+    // .contacts-footer__link-mail
+    &__link-mail {
+        background: url('../img/footer/sms.svg') left no-repeat;
+    }
+
+    // .contacts-footer__link-location
+    &__link-location {
+        background: url('../img/footer/location.svg') left no-repeat;
+    }
+}
+.menu-footer {
+    // .menu-footer__title
+    &__title {
+        color: #121212;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%; /* 27/18 */
+        text-transform: uppercase;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    // .menu-footer__list
+    &__list {
+    }
+
+    // .menu-footer__item
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+    }
+
+    // .menu-footer__link
+    &__link {
+        color: rgba(18, 18, 18, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%; /* 24/16 */
+        transition:all 0.3s ease 0s;
+        @media (any-hover: hover) {
+            &:hover {
+                text-decoration: underline;
+                color: #000;
+            }
+        }
+
+    }
+}
+.social-footer {
+
+    // .social-footer__title
+    &__title {
+        color: #121212;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%; /* 27/18 */
+        text-transform: uppercase;
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
+    }
+
+    // .social-footer__items
+    &__items {
+        display: flex;
+        gap: 32px;
+    }
+
+    // .social-footer__item
+    &__item {
+        transition:all 0.3s ease 0s;
+        @media (any-hover: hover) {
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+.footer {
+    padding-top: 40px;
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    // .footer__container
+    &__container {
+    }
+
+    // .footer__body
+    &__body {
+    }
+
+    // .footer__copy
+    &__copy {
+    }
+}
+.body-footer {
+    grid-template-columns: repeat(2, 1fr);
+    // .body-footer__column
+    &__column {
+       // flex: 0 1 50%;
+    }
+
+    // .body-footer__image
+    &__image {
+    }
+
+    // .body-footer__contacts
+    &__contacts {
+    }
+
+    // .body-footer__menu
+    &__menu {
+    }
+
+    // .body-footer__social
+    &__social {
+    }
+}
+.contacts-footer {
+
+    // .contacts-footer__item
+    &__item {
+    }
+
+    // .contacts-footer__link
+    &__link {
+    }
+
+    // .contacts-footer__link-mail
+    &__link-mail {
+    }
+
+    // .contacts-footer__link-location
+    &__link-location {
+    }
+}
+.menu-footer {
+
+    // .menu-footer__title
+    &__title {
+    }
+
+    // .menu-footer__list
+    &__list {
+    }
+
+    // .menu-footer__item
+    &__item {
+    }
+
+    // .menu-footer__link
+    &__link {
+    }
+}
+.social-footer {
+
+    // .social-footer__title
+    &__title {
+    }
+
+    // .social-footer__items
+    &__items {
+    }
+
+    // .social-footer__item
+    &__item {
+    }
+}}
+@media (max-width: 460px) {
+    .footer {
+
+        // .footer__container
+        &__container {
+        }
+    
+        // .footer__body
+        &__body {
+        }
+    
+        // .footer__copy
+        &__copy {
+        }
+    }
+    .body-footer {
+        grid-template-columns: repeat(1, 1fr);
+        // .body-footer__column
+        &__column {
+        }
+    
+        // .body-footer__image
+        &__image {
+        }
+    
+        // .body-footer__contacts
+        &__contacts {
+        }
+    
+        // .body-footer__menu
+        &__menu {
+        }
+    
+        // .body-footer__social
+        &__social {
+        }
+    }
+    .contacts-footer {
+    
+        // .contacts-footer__item
+        &__item {
+        }
+    
+        // .contacts-footer__link
+        &__link {
+        }
+    
+        // .contacts-footer__link-mail
+        &__link-mail {
+        }
+    
+        // .contacts-footer__link-location
+        &__link-location {
+        }
+    }
+    .menu-footer {
+    
+        // .menu-footer__title
+        &__title {
+        }
+    
+        // .menu-footer__list
+        &__list {
+        }
+    
+        // .menu-footer__item
+        &__item {
+        }
+    
+        // .menu-footer__link
+        &__link {
+        }
+    }
+    .social-footer {
+    
+        // .social-footer__title
+        &__title {
+        }
+    
+        // .social-footer__items
+        &__items {
+        }
+    
+        // .social-footer__item
+        &__item {
+        }
+    }
+}
+@media (max-width: 1200px) {}
+@media (min-width: var(--md2)) {}
+@media (max-width: var(--md2)) {}
+@media (any-hover: hover) {}

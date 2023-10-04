@@ -1,0 +1,114 @@
+.favorite {
+    padding-bottom: 120px;
+    // .favorite__container
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    // .favorite__body
+    &__body {
+        flex: 0 1 50%;
+        padding-right: 20px;
+    }
+
+    // .favorite__title
+    &__title {
+        text-align: left;
+        font-size: 48px;
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
+    }
+
+    // .favorite__apps
+    &__apps {
+    }
+
+    // .favorite__images
+    &__images {
+        flex: 0 1 50%;
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+.apps-favorite {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    // .apps-favorite__item
+    &__item {
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 991.98px) {/* 4.30 */
+    .favorite {
+        padding-bottom: 80px;
+        // .favorite__container
+        &__container {
+            flex-direction: column;
+        }
+    
+        // .favorite__body
+        &__body {
+        }
+    
+        // .favorite__title
+        &__title {
+            font-size: 38px;
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+        }
+    
+        // .favorite__apps
+        &__apps {
+        }
+    
+        // .favorite__images
+        &__images {
+        }
+    }
+    .apps-favorite {
+    
+        // .apps-favorite__item
+        &__item {
+        }
+    }
+}
+@media (max-width: px) {
+    .favorite {
+        padding-bottom: 30px;
+        // .favorite__container
+        &__container {
+        }
+    
+        // .favorite__body
+        &__body {
+        }
+    
+        // .favorite__title
+        &__title {
+        }
+    
+        // .favorite__apps
+        &__apps {
+        }
+    
+        // .favorite__images
+        &__images {
+        }
+    }
+    .apps-favorite {
+    
+        // .apps-favorite__item
+        &__item {
+        }
+    }
+}
+@media (any-hover: hover) {}

@@ -1,0 +1,20 @@
+.page {
+    flex: 1 1 auto;// чтобы прибить подвал к низу. .wrapper { display: flex; flex-direction: column;} 
+    &__main-block {
+    }
+    // .page__store
+    &__store {
+    }
+    // .page__categories
+    &__categories {
+    }
+    // .page__brends
+    &__brends {
+    }
+    // .page__why
+    &__why {
+    }
+    // .page__reviews
+    &__reviews {
+    }
+}

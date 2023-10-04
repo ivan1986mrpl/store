@@ -1,0 +1,35 @@
+.title {
+	color: #121212;
+	font-family: Cal Sans;
+	font-size: 56px;
+	font-weight: 600;
+	line-height: 1.17; /* 66/56 */
+	span {
+		color: $orangeColor;
+	}
+	&--tac {
+		text-align: center;
+	}
+	&--white {
+		color: #fff;
+	}
+	&--fz44 {
+		font-size: 44px;
+	}
+	@media (max-width: 767.98px) {
+		.title {
+            font-size: 44px;
+			&--fz44 {
+				font-size: 38px;
+			}
+        }
+	}
+
+}
+
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (min-width: var(--md2)) {}
+@media (max-width: var(--md2)) {}
+@media (any-hover: hover) {}

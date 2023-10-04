@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500,600&display=swap');
+@import 'blocks/font';
+// @import 'blocks/iconfont';
+@import 'libs/normalize';/* обнуляющие стили */
+@import 'base/mixins';
+/* https://min-max-calculator.9elements.com/ */
+/* Сервис создания favicon - https://www.favicon.by/ */
+/* Онлайн декодер WebP - https://squoosh.app/ */
+@import 'base/variables';
+@import url('https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css');//(swiper)
+body {
+    font-family: var(--font-family);
+    color: $textColor;
+    font-size: var(--fz);
+    font-weight: var(--font-weight);
+	&.lock {
+		overflow: hidden;/* для меню бургер, класс добавляется JavaScript. Чтобы сайт не скроллился при открытом меню */
+	}
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+} */
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.ibg {         
+    position: relative;
+    /* padding: 0px 0px 58% 0px; *//* отзывчивая высота нижним процентным паддингом родителю. задаем вместо фиксированной высоты.  */
+    //overflow: hidden;    
+}
+.ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    //object-position: center;
+}
+/* одновременно указать в секции */
+/* .main-block {
+    position: relative;
+    &__image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+} */
+/* ---------------- */
+@import 'blocks/page';
+@import 'blocks/pageup';
+@import 'blocks/title';
+@import 'blocks/button';
+//@import 'blocks/nav-menu';
+//@import 'blocks/nav-menuTop';
+//@import 'blocks/nav-menuRight';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/main-block';
+@import 'blocks/store';
+@import 'blocks/categories';
+@import 'blocks/brends';
+@import 'blocks/why';
+@import 'blocks/reviews';
+@import 'blocks/favorite';
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (min-width: var(--md2)) {}
+@media (max-width: var(--md2)) {}
+@media (any-hover: hover) {}
+/* @media (any-hover: hover) {медиазапрос для устройств, где есть мышь
+    &:hover {
+        transform: scale(1.10);
+    }
+} */
+/* для адаптации картинок и  видео задаем родителю нижний процентный паддинг вместо фиксированной высоты */
+/* для этого высоту делим на ширину */
+/* &__video {
+    padding: 0px 0px 56.25% 0px;
+} */
+/* width="560" height="315" изображение или видео адаптируется */
+/* 315/560=56.25 из iframe */
+
+/* &__body > *:not(:last-child) {обращение ко всем обьектам первого уровня, кроме последнего
+    margin: 0px 0px 30px 0px;
+} */
+
+/*     &__video {
+        flex: 0 0 57%; 600px/1046px 
+        position: relative;
+        padding: 0px 0px 42.25% 0px;  442/1046*100=42.25% 
+    }
+    &__video iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    } */
+
+
+
+
+/* 
+.ibg{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.ibg img{
+width: 0;
+height: 0;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+visibility: hidden;
+}
+*/

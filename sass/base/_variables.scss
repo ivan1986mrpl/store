@@ -1,0 +1,42 @@
+
+:root {
+    // если вы хотите использовать sass-переменные - удалите root
+    /* --menuIcon-color: #FFF;
+    --menuText-color: #FFF;
+    --menuList-color: #f15412;
+    --menuBody-color: rgba(0, 0, 0, 0.6);
+    
+    --main-color: #f15412;
+    --secondary-color: #34b3f1;
+    --bg-color: #121B25;
+    --accent-color: #15786C;
+    --dark-color: #0000;
+    --light-color: #fff;
+    --text-color: #000;
+    --hover-color: #FFF; */
+
+    --orange-color: #FF6428;
+    --text-color: #666;
+
+    --font-family: 'Poppins', sans-serif;
+    --fz: 16px;
+    --font-weight: 400;
+
+    --max-wight-container: 1420px;
+    --md1: 1199.98px;
+    --md2: 991.98px;
+    --md3: 767.98px;
+    --md2: 575.98px;    
+}
+$textColor: #666;
+$orangeColor: #FF6428;
+
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1200px) {}
+@media (min-width: var(--md2)) {}
+@media (max-width: var(--md2)) {}
+@media (any-hover: hover) {}
+
+
+  
